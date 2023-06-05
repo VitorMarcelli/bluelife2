@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,600&family=Roboto+Slab:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: linear-gradient(to left,#005bc5  40%, #012677); 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 100;
+    background-color: #005bc5;
+    background-image: linear-gradient(to left,#005bc5  40%, #012677); 
+    
+}
+
+.img__header{
+    width: 6em;
+    
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    left: -80px;
+}
+
+strong{
+    color: #00b4fc;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+   
+    
+}
+
+.navbar a:hover{
+    color: #00b4fc;
+    transition: .3s;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 10% 0;
+}
+
+.home__content{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 50px;
+    color: beige;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.home__sci img{
+    width: 500px;
+}
+
+.btns{
+        width: 100%;
+        position: relative;
+        left: 120px;
+        
+}
+
+.btns button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    color: #005bc5;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 14px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 5px 5px black;
+}
+
+.btns button:hover{
+    background-color: #00b4fc;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+
